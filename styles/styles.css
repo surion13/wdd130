@@ -1,4 +1,11 @@
+:root{
+    --font:'Montserrat', Helvetica, Arial;
+    --color: darkblue
+}
+
 nav {
+    
+    font: var(--font);
     background-color: darkblue;
     padding: 10px;
 }
@@ -22,6 +29,8 @@ main img {
 }
 
 p {
+    font: var(--font);
+    color: var(--color);
     padding: 0;
 }
 
