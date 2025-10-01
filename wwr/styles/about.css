@@ -62,7 +62,6 @@ nav, p, section, article {
     padding: 16px;
     text-align: center;
     background-color: var(--accent1-color);
-    /* background-color: darkblue; */
     color: white;
 }
 
