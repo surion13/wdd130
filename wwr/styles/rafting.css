@@ -136,15 +136,24 @@ nav, p, section, article {
 
 footer {
     border-top: 1px solid #000;
-    
 }
 
-.footer-content{
-    display: grid;
-    grid-template-columns:  1fr auto;
-    justify-items: center;
+.footer-content {
+    width: 840px;             
+    margin: 0 auto;            
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer-content p {
     text-align: center;
-    width: 840px;   
-    margin: 0 auto; 
-    
+    flex: 1;                 
+}
+
+.footer-content nav {
+    position: absolute;
+    right: 0;                
 }
