@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+  font-size: 1.3em;
+  color: #000000;
+  background: #fff;
+}
+
+h1 {
+  margin: 1rem;
+  font-size: 1.5em;
+  color: navy;
+  text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    background-color: rgb(201, 199, 199);
+    display: grid;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+  display: grid;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+label, input, textarea, select, button {
+    margin: .5rem;
+}
+
+input, select {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.exampleCode {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    margin-left: 2rem;
+    margin-right: 10rem;
+    padding-left: .25rem;
+}
