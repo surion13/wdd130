@@ -157,3 +157,102 @@ footer {
     position: absolute;
     right: 0;                
 }
+
+/* contact */
+
+.contact-info {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-section iframe {
+    width: 100%;
+    height: 370px;
+    border: 1px solid #ccc;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contact-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.contact-form button {
+    background-color: black;
+    color: white;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #444;
+}
+
+.employees {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 2rem 1rem;
+    border: #000 1px solid;
+}
+
+.employees h2 {
+    color: black;
+    background: none;
+    margin-bottom: 1.5rem;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.employee-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 150px;
+    height: 230px;
+    text-align: center;
+}
+
+.employee-card img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
