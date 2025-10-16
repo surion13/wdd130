@@ -98,25 +98,6 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;   
-}
-
-.hero h1 {
-    position: absolute;
-    top: 10px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    background-color: var(--accent1-color);
-    color: white;
-}
 
 .hero article {
     position: absolute;
@@ -255,4 +236,112 @@ footer {
     width: 100%;
     border-radius: 50%;
     margin-bottom: 0.5rem;
+}
+
+
+/* === HERO SECTION === */
+.hero {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0,);
+  color: white;
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+/* === NEWSLETTER SECTION === */
+.newsletter {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: var(--secondary-color);
+  color: black;
+}
+
+.newsletter-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.newsletter-form input {
+  padding: 0.5rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background-color: #333;
+}
+
+/* === CALL TO ACTION SECTION === */
+.cta {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+}
+
+.cta-button:hover {
+  background-color: gold;
+}
+
+/* === OFFERINGS GRID === */
+.offerings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.grid-item {
+  text-align: center;
+  background-color: #fffbe0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 1rem;
 }
