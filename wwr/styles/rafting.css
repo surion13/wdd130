@@ -345,3 +345,34 @@ footer {
   border-radius: 6px;
   margin-bottom: 1rem;
 }
+
+/* trips */
+
+.trips-table {
+  padding: 2rem;
+}
+
+.trips-table h2 {
+  color: white;
+  background: black;
+  margin-bottom: 1rem;
+}
+
+.trips-table-content {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #fffbe0;
+}
+
+.trips-table-content th,
+.trips-table-content td {
+  border: 1px solid black;
+  padding: 10px;
+
+}
+
+.trips-table-content thead {
+  background-color: black;
+  color: white;
+}
